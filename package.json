@@ -1,6 +1,6 @@
 {
   "name": "curly-free-template",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Nested, curly-brackets-free template module.",
   "main": "index.js",
   "directories": {
