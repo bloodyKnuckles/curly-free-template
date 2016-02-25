@@ -25,7 +25,6 @@ the corresponding CSS selectors.
 ## simple example
 
 ``` js
-// require the module and identify the directory that contains the template files
 var templates = require('curly-free-template')
 var fs = require('fs')
 
