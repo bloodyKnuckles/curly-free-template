@@ -12,7 +12,7 @@ templates(
     // provide an object of CSS selector keys with values to replace the default template text
     {
         'title':     'My New Title',
-        '#message':  'Hello templateking!',
+        '#message':  'Hello Curly Free!',
         '#datetime': Date()
     },
 
