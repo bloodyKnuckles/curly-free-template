@@ -39,7 +39,7 @@ templates(
     // provide an object of CSS selector keys with values to replace the default template text
     {
         'title':     'My New Title',
-        '#message':  'Hello templateking!',
+        '#message':  'Hello Curly Free!',
         '#datetime': Date()
     },
 
@@ -55,7 +55,7 @@ simple.html
 <!DOCTYPE html>
 <html>
   <head>
-    <title>templateking</title>
+    <title>title goes here</title>
   </head>
   <body>
     <div class="template">template</div>
@@ -78,7 +78,7 @@ Will output:
     </head>
     <body>
         <div class="template">
-            <h3 id="message">Hello templateking!</h3>
+            <h3 id="message">Hello Curly Free!</h3>
             <div>Date/Time: <span id="datetime">Tue Nov 24 2015 12:51:23 GMT-0600 (CST)</span></div>
         </div>
     </body>
