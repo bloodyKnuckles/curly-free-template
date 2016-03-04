@@ -30,4 +30,7 @@
     "hyperstream": "git+https://github.com/bloodyKnuckles/hyperstream.git",
     "string-to-stream": "^1.0.1"
   }
+  "scripts": {
+    "build": "browserify -t brfs public/simple.js > public/bundle.js"
+  },
 }

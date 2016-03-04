@@ -7,8 +7,6 @@ var main    = fs.readFileSync(__dirname + '/public/main.html', 'utf8')
 var section = fs.readFileSync(__dirname + '/public/section.html', 'utf8')
 var message = fs.readFileSync(__dirname + '/public/message.html', 'utf8')
 
-var res = getRes()
-
 var msg = 'okay'
 var pagecontent = {
   'head': {_mapappend: {
@@ -25,7 +23,7 @@ var pagecontent = {
   }}
 }
 
-templates([main, section, message], pagecontent, res)
+templates([main, section, message], pagecontent, getRes())
 
 function getRes () {
   var res = new Stream()

@@ -21,6 +21,8 @@ identifies HTML tag names and CSS selectors as key names paired with values and 
 appends/prepends) the default content of the elements in the templates that are identified by
 the corresponding CSS selectors.
 
+This module requires a writeable stream to output to.
+
 ## simple example
 
 ``` js
