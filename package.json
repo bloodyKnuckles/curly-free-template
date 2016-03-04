@@ -15,7 +15,8 @@
     "nested",
     "HTML",
     "CSS",
-    "selectors"
+    "selectors",
+    "stream"
   ],
   "author": "Jay Scott ANDERSON",
   "license": "MIT",
