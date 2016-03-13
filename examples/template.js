@@ -3,7 +3,7 @@ var templates = require('../')
 var fs = require('fs')
 var Stream = require('stream')
 
-var main    = fs.readFileSync(__dirname + '/public/main.html', 'utf8')
+var main    = fs.readFileSync('examples/public/main.html', 'utf8')
 var section = fs.readFileSync(__dirname + '/public/section.html', 'utf8')
 var message = fs.readFileSync(__dirname + '/public/message.html', 'utf8')
 

@@ -32,6 +32,6 @@
     "string-to-stream": "^1.0.1"
   },
   "scripts": {
-    "build": "browserify -t brfs public/simple.js > public/bundle.js"
+    "build": "browserify -t brfs examples/template.js > examples/bundle.js"
   }
 }
