@@ -1,7 +1,7 @@
 {
   "name": "curly-free-template",
   "version": "0.1.4",
-  "description": "Nested, curly-brackets-free template module.",
+  "description": "Nested, curly-brackets-free, streaming template module.",
   "main": "index.js",
   "directories": {
     "example": "examples"
