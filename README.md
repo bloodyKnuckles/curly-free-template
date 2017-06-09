@@ -2,6 +2,11 @@
 
 Content injection is accomplished using standard HTML tag names and other CSS selectors.
 
+(Intended for client-side use. For a similar server-side library see
+[templateking](http://www.npmjs.com/package/templateking). For a client-side 
+[virtual-dom](https://www.npmjs.com/package/virtual-dom) compatible version see 
+[shave-template](https://www.npmjs.com/package/shave-template).)
+
 This module allows you to develop plain HTML/CSS templates with dummy data in the places dynamic
 data will be inserted. The benefit is that the templates can be developed independently from the
 programming that dynamically incorporates data into the web page.
